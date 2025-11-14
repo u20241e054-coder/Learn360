@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Learn360</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <!--LOGO Y MENUS-->
+    <nav class="topheader">
+      <a href="" class="">
+        <img height="50" width="120" src="img/logoWeb.png" alt="" />
+      </a>
+      <ul class="Menu-Horizontal">
+        <li><a href="">Personas</a></li>
+        <li><a href="">Empresas</a></li>
+        <li>
+          <a href="">Productos</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Tarjetas</a></li>
+            <li><a href="">Cuentas</a></li>
+            <li><a href="">Préstamos</a></li>
+            <li><a href="">Seguros</a></li>
+          </ul>
+        </li>
+        <li><a href="">Abre tu Cuenta</a></li>
+        <li><a href="">Contáctanos</a></li>
+      </ul>
+    </nav>
+    <!--SECCION-PERSONAS-->
+    <section class="seccion-personas">
+      <div class="div-gral-persona">
+        <div class="div-pers-texto">
+          <h2>Quienes Somos</h2>
+
+          <p>
+            En Learn360, nos apasiona simplificar la vida académica de
+            estudiantes y profesionales. Nuestra misión es ofrecer una
+            plataforma intuitiva donde puedas organizar tus cursos, almacenar
+            apuntes y acceder a ellos de manera rápida y eficiente. Creemos en
+            la importancia de tener todo el material educativo a la mano, por lo
+            que trabajamos constantemente para mejorar nuestras herramientas y
+            funcionalidades.
+          </p>
+
+          <p>
+            Con nosotros, tendrás un respaldo confiable para cada una de tus
+            clases, permitiéndote centrarte en lo que realmente importa:
+            aprender y crecer. Nuestra visión es ser el aliado perfecto en tu
+            jornada educativa, brindándote siempre la mejor experiencia.
+          </p>
+        </div>
+        <div class="div-pers-img">
+          <img src="img/person123.jpg" />
+        </div>
+      </div>
+    </section>
+    <!--SECCION-EMPRESA-->
+    <section class="seccion-empresa">
+      <div class="div-gral-empresa">
+        <div class="div-pers-texto">
+          <h2>Nuestra Empresa</h2>
+
+          <p>
+            El objetivo de nuestra empresa es proporcionar una solución digital
+            completa para la gestión de apuntes y recursos académicos. Buscamos
+            facilitar el acceso y organización de la información educativa,
+            permitiendo a los usuarios registrar, almacenar y consultar sus
+            materiales de manera eficiente y segura.
+          </p>
+
+          <p>
+            A través de nuestra plataforma, aspiramos a optimizar el tiempo de
+            estudio y mejorar la productividad de los estudiantes, brindándoles
+            herramientas de fácil uso y un respaldo confiable. Nos comprometemos
+            a innovar constantemente para ofrecer la mejor experiencia educativa
+            y contribuir al éxito académico de nuestros usuarios. Las
+            necesidades de nuestros usuarios, aspiramos a ser un aliado
+            indispensable en el proceso educativo, apoyando a cada persona a
+            alcanzar sus metas académicas con herramientas que mejoren su
+            productividad y organización. Nuestro compromiso es ofrecer la mejor
+            experiencia digital, adaptada a los desafíos y cambios del entorno
+            educativo actual.
+          </p>
+        </div>
+        <div class="div-empresa-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/QwwzUA96TeE?si=x7MUS5a6zIY7jlgZ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!--Seccion Formulario-->
+    <section class="seccion-formulario">
+      <div class="div-cont-formulario">
+        <h2>Formulario de Registro</h2>
+        <p>Complete todos los campos</p>
+        <form class="formulario">
+          <!--INPUTS/LABEL-->
+          <div class="campo">
+            <label for="nombre">Nombres Completos:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingrese sus nombres"
+            />
+          </div>
+          <!--LISTA DESPLEGABLE-->
+          <div class="campo">
+            <label for="nombre">Pais:</label>
+            <select id="pais" name="pais">
+              <option value="">Seleccione un pais</option>
+              <option value="peru">Peru</option>
+              <option value="colombia">Colombia</option>
+              <option value="argentina">Argentina</option>
+              <option value="mexico">Mexico</option>
+            </select>
+          </div>
+          <!--CHECKBOX-->
+          <div class="campo">
+            <label>Interes:</label>
+            <ul class="lista-checkbox">
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="finanzas"
+                  />Finanzas</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="tecnologia"
+                  />Tecnologia</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="contabilidad"
+                  />Contabilidad</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="educacion"
+                  />Educacion</label
+                >
+              </li>
+            </ul>
+          </div>
+          <!--RADIO-->
+          <div class="campo">
+            <label>Sexo:</label>
+            <ul class="lista-radio">
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="masculino"
+                  />Masculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="femenino"
+                  />Femenino</label
+                >
+              </li>
+            </ul>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img src="img/logoWeb.png" alt="Logo" class="footer-logo" />
+            <p>Learn360</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
